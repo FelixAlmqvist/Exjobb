@@ -1,0 +1,19 @@
+[
+    {
+        "firstName": "Felix",
+        "lastName": "Almqvist",
+        "email": "felix@example.com",
+        "gender": "Male",
+        "mobile": "1234567890",
+        "hobby": "Reading"
+    },
+
+    {
+        "firstName": "Sara",
+        "lastName": "Lind",
+        "email": "sara@example.com",
+        "gender": "Female",
+        "mobile": "0987654321",
+        "hobby": "Sports"
+    }
+]
