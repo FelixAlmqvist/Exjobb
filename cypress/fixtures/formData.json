@@ -4,7 +4,7 @@
         "lastName": "Almqvist",
         "email": "felix@example.com",
         "gender": "Male",
-        "mobile": "1234567890",
+        "phone": "1234567890",
         "hobby": "Reading"
     },
 
@@ -13,7 +13,7 @@
         "lastName": "Lind",
         "email": "sara@example.com",
         "gender": "Female",
-        "mobile": "0987654321",
+        "phone": "0987654321",
         "hobby": "Sports"
     }
 ]

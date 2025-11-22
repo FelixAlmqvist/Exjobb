@@ -23,8 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import { formPage } from "./pages/formPage"
+
 Cypress.on('uncaught:exception', (err, runnable) => {
   // returning false here prevents Cypress from
   // failing the test
   return false
+})
+
+Cypress.Commands.add('fillForm', (data) => {
+  formPage.fillForm(data)
 })
