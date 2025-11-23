@@ -12,14 +12,21 @@ class FormPage {
     submitButton() { return cy.get('#submit') }
     
     fillForm(data) {
-        //must haves
+        //Need to have, assume they have
         this.firstName().type(data.firstName)
         this.lastName().type(data.lastName)
         this.genderOption(data.gender).click()
         this.phone().type(data.phone)
-        //Optional TODO fix checks
-        this.email().type(data.email)
-        this.hobbyOption(data.hobby).click()
+        //Optional information
+        if(data.email){
+            this.email().type(data.email)
+        }
+        if(data.hobby){
+            data.hobby.forEach(h =>{
+                this.hobbyOption(h).click()
+            })
+        }
+        
     }
   
 }

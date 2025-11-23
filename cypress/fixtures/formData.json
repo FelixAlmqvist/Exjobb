@@ -1,19 +1,84 @@
 [
-    {
-        "firstName": "Felix",
-        "lastName": "Almqvist",
-        "email": "felix@example.com",
-        "gender": "Male",
-        "phone": "1234567890",
-        "hobby": "Reading"
-    },
+  {
+    "firstName": "Leo",
+    "lastName": "Bergström",
+    "email": "leo@example.com",
+    "gender": "Male",
+    "phone": "1234567890",
+    "hobby": ["Reading"]
+  },
+  {
+    "firstName": "Sara",
+    "lastName": "Lind",
+    "email": "sara@gmail.com",
+    "gender": "Female",
+    "phone": "0987654321",
+    "hobby": ["Sports"]
+  },
+  {
+    "firstName": "Jonas",
+    "lastName": "Eriksson",
+    "email": "jonas123@gmail.com",
+    "gender": "Male",
+    "phone": "0761234567"
+  },
 
-    {
-        "firstName": "Sara",
-        "lastName": "Lind",
-        "email": "sara@example.com",
-        "gender": "Female",
-        "phone": "0987654321",
-        "hobby": "Sports"
-    }
+  {
+    "firstName": "Emma",
+    "lastName": "Nyström",
+    "email": "emma.nystrom@outlook.com",
+    "gender": "Female",
+    "phone": "0749876543",
+    "hobby": ["Music"]
+  },
+
+  {
+    "firstName": "Anna",
+    "lastName": "Karlsen",
+    "gender": "Female",
+    "phone": "0731122334"
+  },
+
+  {
+    "firstName": "Mikael",
+    "lastName": "Åkesson",
+    "email": "mikael@test.se",
+    "gender": "Male",
+    "phone": "0000000000",
+    "hobby": ["Sports", "Reading"]
+  },
+
+  {
+    "firstName": "Elin",
+    "lastName": "Svensson",
+    "email": "elin@wrong",
+    "gender": "Female",
+    "phone": "123",
+    "hobby": ["Music"]
+  },
+
+  {
+    "firstName": "Alex",
+    "lastName": "Karlsson",
+    "email": "alexander.karlsson@hotmail.com",
+    "gender": "Male",
+    "phone": "1234567890"
+  },
+
+  {
+    "firstName": "Åsa",
+    "lastName": "Göransson",
+    "email": "asa.goransson@gmail.com",
+    "gender": "Female",
+    "phone": "0765554433",
+    "hobby": ["Reading"]
+  },
+
+  {
+    "firstName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "lastName": "Longlastname",
+    "email": "longname@example.com",
+    "gender": "Male",
+    "phone": "1111111111"
+  }
 ]
